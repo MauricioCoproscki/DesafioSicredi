@@ -1,0 +1,21 @@
+,nome_associado,sobrenome_associado,idade_associado,vlr_transacao_movimento,des_transacao_movimento,data_movimento,numero_cartao,nome_impresso_cartao,data_criacao_cartao,tipo_conta,data_criacao_conta
+0,usuario 1,usuario 1,33,10000.00,compra,2022-03-19 12:04:21,111111,Usuario 1,2022-03-19 18:22:37,corrente,2022-03-19 12:04:21
+1,usuario 2,usuario 2,18,9000.00,compra,2017-06-24 21:00:00,222222,Usuario 1,2022-03-19 18:22:37,poupança,2022-03-19 12:04:21
+2,usuario 3,usuario 3,90,5000.00,compra,2022-03-29 12:04:21,333333,Usuario 1,2022-03-19 18:22:37,corrente,2022-03-19 12:04:21
+3,usuario 4,usuario 4,30,2000.00,compra,2022-03-14 12:04:21,444444,Usuario 1,2022-03-19 18:22:37,corrente,2022-03-19 12:04:21
+4,usuario 5,usuario 5,20,399.00,compra,2022-03-13 12:04:21,555555,Usuario 1,2022-03-19 18:22:37,corrente,2022-03-19 12:04:21
+5,usuario 5,usuario 5,20,500.00,compra,2022-03-11 12:04:21,555556,Usuario 1,2022-03-19 18:22:37,corrente,2022-03-19 12:04:21
+6,usuario 5,usuario 5,20,1000.00,compra,2022-03-24 12:04:21,565556,Usuario 1,2022-03-19 18:22:37,corrente,2022-03-19 12:04:21
+7,usuario 5,usuario 5,20,1500.00,compra,2022-03-19 12:04:21,555557,Usuario 1,2022-03-19 18:22:37,poupança,2022-03-19 12:04:21
+8,usuario 5,usuario 5,20,1050.00,compra,2022-03-19 12:04:21,577757,Usuario 1,2022-03-19 18:22:37,poupança,2022-03-19 12:04:21
+9,usuario 6,usuario 6,50,700.00,compra,2022-03-19 12:04:21,666666,Usuario 1,2022-03-19 18:22:37,corrente,2022-03-19 12:04:21
+10,usuario 7,usuario 7,41,1023.00,saque,2022-03-26 12:04:21,777777,Usuario 1,2022-03-19 18:22:37,poupança,2022-03-19 12:04:21
+11,usuario 8,usuario 8,64,23000.00,compra,2022-03-19 12:04:21,888888,Usuario 1,2022-03-19 18:22:37,corrente,2022-03-19 12:04:21
+12,usuario 9,usuario 9,27,8500.00,compra,2022-03-19 12:04:21,999999,Usuario 1,2022-03-19 18:22:37,poupança,2022-03-19 12:04:21
+13,usuario 10,usuario 10,40,3000.00,compra,2022-03-14 12:04:21,101012,Usuario 1,2022-03-19 18:22:37,corrente,2022-03-19 12:04:21
+14,usuario 10,usuario 10,40,9000.00,compra,2022-03-28 12:04:21,101012,Usuario 1,2022-03-19 18:22:37,corrente,2022-03-19 12:04:21
+15,usuario 10,usuario 10,40,8500.00,compra,2022-03-31 12:04:21,101012,Usuario 1,2022-03-19 18:22:37,corrente,2022-03-19 12:04:21
+16,usuario 10,usuario 10,40,12000.00,compra,2022-04-03 12:04:21,101012,Usuario 1,2022-03-19 18:22:37,corrente,2022-03-19 12:04:21
+17,usuario 10,usuario 10,40,999.00,compra,2022-03-12 12:04:21,101012,Usuario 1,2022-03-19 18:22:37,corrente,2022-03-19 12:04:21
+18,usuario 10,usuario 10,40,30.00,compra,2022-03-10 12:04:21,101012,Usuario 1,2022-03-19 18:22:37,corrente,2022-03-19 12:04:21
+19,usuario 10,usuario 10,40,3500.00,paeclamento,2022-03-19 12:04:21,101013,Usuario 1,2022-03-19 18:22:37,poupança,2022-03-19 12:04:21
