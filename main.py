@@ -4,11 +4,8 @@ from pyspark.sql import SparkSession
 from pyspark.sql import SQLContext
 from pyspark.sql import Row
 import pandas as pd
-<<<<<<< HEAD
 banco="jdbc:mysql://localhost/sicooperative"    
 caminho="C:/Users/mauri/OneDrive/Desktop/DesafioSicredi"
-=======
->>>>>>> 4664027c9b05a41391b87ea79c348eeab0eff761
 #Cria SparkSession
 spSession = SparkSession.builder.master("local[1]").appName("extratordedados").getOrCreate()
 sc=spSession.sparkContext   
@@ -16,44 +13,28 @@ print("Iniciando ETL")
 print(sc)
 #conecta com tabelas
 movimentoRDD = spSession.read.format("jdbc").options(
-<<<<<<< HEAD
     url = banco,
-=======
-    url = "jdbc:mysql://localhost/sicooperative",
->>>>>>> 4664027c9b05a41391b87ea79c348eeab0eff761
     serverTimezone = "UTC",
     driver = "com.mysql.jdbc.Driver",
     dbtable = "movimento",
     user = "root",
     password = "123").load()
 associadoRDD = spSession.read.format("jdbc").options(
-<<<<<<< HEAD
     url = banco,
-=======
-    url = "jdbc:mysql://localhost/sicooperative",
->>>>>>> 4664027c9b05a41391b87ea79c348eeab0eff761
     serverTimezone = "UTC",
     driver = "com.mysql.jdbc.Driver",
     dbtable = "associado",
     user = "root",
     password = "123").load()
 contaRDD = spSession.read.format("jdbc").options(
-<<<<<<< HEAD
     url = banco,
-=======
-    url = "jdbc:mysql://localhost/sicooperative",
->>>>>>> 4664027c9b05a41391b87ea79c348eeab0eff761
     serverTimezone = "UTC",
     driver = "com.mysql.jdbc.Driver",
     dbtable = "conta",
     user = "root",
     password = "123").load()    
 cartaoRDD = spSession.read.format("jdbc").options(
-<<<<<<< HEAD
     url = banco,
-=======
-    url = "jdbc:mysql://localhost/sicooperative",
->>>>>>> 4664027c9b05a41391b87ea79c348eeab0eff761
     serverTimezone = "UTC",
     driver = "com.mysql.jdbc.Driver",
     dbtable = "cartao",
@@ -77,9 +58,5 @@ df=spSession.sql(consulta)
 df.show(5)
 #coverte o DataFrame Spark para DataFrame Pandas e exporta para CSV
     #nesta linha trocar para o caminho desejado
-<<<<<<< HEAD
 df.toPandas().to_csv(f'{caminho}/base.csv')
-=======
-df.toPandas().to_csv('C:/Users/mauri/OneDrive/Desktop/DesafioSicredi/base.csv')
->>>>>>> 4664027c9b05a41391b87ea79c348eeab0eff761
 print("Fim do Processo de ETL")
